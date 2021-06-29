@@ -1,0 +1,96 @@
+body {
+  background-color: #f6f4ef;
+}
+
+.app {
+  max-width: fit-content;
+  width: 100%;
+  margin: auto;
+}
+
+.white-box {
+  margin-top: 32px;
+  background: #ffffff;
+  box-shadow: 0 30px 40px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  padding: 26px;
+}
+
+.title {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.button-wrapper {
+  cursor: pointer;
+  height: 50px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.empty-button-wrapper,
+.button-wrapper {
+  width: 120px;
+  margin: 10px;
+}
+
+.button-num {
+  width: 120px;
+  background-color: #ff5629;
+}
+
+.addon-operator {
+  width: 190px;
+  background-color: #5db85c;
+}
+
+.subtraction-operator {
+  width: 190px;
+  background-color: #991200;
+}
+
+.button-calc {
+  width: 100%;
+  background-color: #333a42;
+}
+
+.divider {
+  border-bottom: 0.3px solid;
+  border-color: rgba(128, 128, 128, 0.5);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.input-group {
+  margin: 10px;
+  padding-bottom: 10px;
+  display: flex;
+}
+
+.input {
+  height: 20px;
+  border: 0.1px solid rgba(128, 128, 128, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.input-num {
+  width: 110px;
+}
+
+.input-operator {
+  width: 30px;
+}
+
+.no-border-input-operator {
+  border: 0;
+}
